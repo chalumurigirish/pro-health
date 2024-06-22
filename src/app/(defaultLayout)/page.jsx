@@ -221,7 +221,7 @@ export default function Home() {
           imgUrl={aboutImage}
           spiningImgUrl='/images/home_1/about_mini.svg'
           title='About Us'
-          subTitle='PRO HEALTH'
+          subTitle='Medical Tourism'
           featureList={[
             {
               featureListTitle:

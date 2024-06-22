@@ -62,7 +62,7 @@ export default function FooterStyle2() {
       <div className='cs_footer_bottom'>
         <div className='container'>
           <div className='cs_copyright'>
-            Copyright © 2024 Pro Health. All rights reserved.
+            Copyright © 2024 Medical Tourism. All rights reserved.
           </div>
         </div>
       </div>

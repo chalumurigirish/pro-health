@@ -203,7 +203,7 @@ export default function HomeStyle2() {
         imgUrl='/images/home_2/patents.png'
         videoBtnText='See how we work'
         videoUrl='https://www.youtube.com/embed/VcaAVWtP48A'
-        btnText='Pro Health'
+        btnText='Medical Tourism'
         btnUrl='/'
         funfactList={[
           { number: '20+', title: 'Years of experience' },
