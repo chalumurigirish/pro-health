@@ -15,23 +15,23 @@ const poppins = Poppins({
 export const metadata = {
   title: {
     absolute: '',
-    default: 'ProHealth - Medical and Healthcare NextJS Template',
-    template: '%s | ProHealth - Medical and Healthcare NextJS Template',
+    default: 'ProHealth - Medical and Healthcare',
+    template: '%s | ProHealth - Medical and Healthcare',
   },
-  description: 'ProHealth - Medical and Healthcare NextJS Template',
+  description: 'ProHealth - Medical and Healthcare',
   openGraph: {
-    title: 'ProHealth - Medical and Healthcare NextJS Template',
-    description: 'ProHealth - Medical and Healthcare NextJS Template',
+    title: 'ProHealth - Medical and Healthcare',
+    description: 'ProHealth - Medical and Healthcare',
     images: ['/openGraphImage.jpeg'],
   },
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang='en'>
       <head>
-        <meta name="author" content="Laralink" />
-        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <meta name='author' content='Laralink' />
+        <link rel='icon' href='/favicon.ico' sizes='any' />
       </head>
       <body className={`${figtree.variable} ${poppins.variable}`}>
         {children}
