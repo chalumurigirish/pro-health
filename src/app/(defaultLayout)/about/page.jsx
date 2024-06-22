@@ -1,16 +1,16 @@
-"use client"
-import Section from "@/app/ui/Section";
-import AwardSectionStyle2 from "@/app/ui/Section/AwardSection/AwardSectionStyle2";
-import DepartmentSectionStyle2 from "@/app/ui/Section/DepartmentSection/DepartmentSectionStyle2";
-import BannerSectionStyle3 from "@/app/ui/Section/BannerSection/BannerSectionStyle3";
-import BannerSectionStyle4 from "@/app/ui/Section/BannerSection/BannerSectionStyle4";
-import FeaturesSectionStyle2 from "@/app/ui/Section/FeaturesSection/FeaturesSectionStyle2";
-import FunFactSection from "@/app/ui/Section/FunFactSection";
-import GallerySection from "@/app/ui/Section/GallerySection";
-import TeamSection from "@/app/ui/Section/TeamSection";
+'use client';
+import Section from '@/app/ui/Section';
+import AwardSectionStyle2 from '@/app/ui/Section/AwardSection/AwardSectionStyle2';
+import DepartmentSectionStyle2 from '@/app/ui/Section/DepartmentSection/DepartmentSectionStyle2';
+import BannerSectionStyle3 from '@/app/ui/Section/BannerSection/BannerSectionStyle3';
+import BannerSectionStyle4 from '@/app/ui/Section/BannerSection/BannerSectionStyle4';
+import FeaturesSectionStyle2 from '@/app/ui/Section/FeaturesSection/FeaturesSectionStyle2';
+import FunFactSection from '@/app/ui/Section/FunFactSection';
+import GallerySection from '@/app/ui/Section/GallerySection';
+import TeamSection from '@/app/ui/Section/TeamSection';
 
-import bannerImg from '../../../../public/images/about/banner_img.png'
-import whyChooseUsImg from '../../../../public//images/about/why_choose_us.jpeg'
+import bannerImg from '../../../../public/images/about/banner_img.png';
+import whyChooseUsImg from '../../../../public//images/about/why_choose_us.jpeg';
 
 const departmentData = [
   {
@@ -156,42 +156,42 @@ export default function About() {
   return (
     <>
       <BannerSectionStyle3
-        bgUrl="/images/about/banner_bg.svg"
+        bgUrl='/images/about/banner_bg.svg'
         imgUrl={bannerImg}
-        title="Welcome to <br />ProHealth Medical & Healthcare Center"
-        subTitle="Your Partner in Health and Wellness"
+        title='Welcome to <br />Medical Tourism & Healthcare Center'
+        subTitle='Your Partner in Health and Wellness'
       />
       <Section topMd={200} topLg={150} topXl={110}>
         <DepartmentSectionStyle2
-          sectionTitle="Provides Our Best Services"
-          sectionTitleUp="SERVICES"
+          sectionTitle='Provides Our Best Services'
+          sectionTitleUp='SERVICES'
           data={departmentData}
         />
       </Section>
       <Section topMd={175} topLg={125} topXl={85} bottomMd={100} bottomLg={110}>
         <FeaturesSectionStyle2
-          sectionTitle="Why Choose Us"
+          sectionTitle='Why Choose Us'
           imgUrl={whyChooseUsImg}
           data={featureListData}
         />
       </Section>
       <Section>
         <FunFactSection
-          bgUrl="/images/about/fun_fact_bg.jpeg"
+          bgUrl='/images/about/fun_fact_bg.jpeg'
           data={funFactData}
         />
       </Section>
       <Section topMd={190} topLg={145} topXl={105}>
         <TeamSection
-          sectionTitle="Experts Doctor"
-          sectionTitleUp="MEET OUR"
+          sectionTitle='Experts Doctor'
+          sectionTitleUp='MEET OUR'
           data={teamData}
         />
       </Section>
       <Section topMd={170} topLg={120} topXl={80}>
         <GallerySection
-          sectionTitle="Our Facilities and <br />Latest Activities"
-          sectionTitleUp="HAVE A LOOK AT"
+          sectionTitle='Our Facilities and <br />Latest Activities'
+          sectionTitleUp='HAVE A LOOK AT'
           data={galleryData}
         />
       </Section>
@@ -204,17 +204,17 @@ export default function About() {
         bottomXl={110}
       >
         <AwardSectionStyle2
-          sectionTitle="Winning Awards and <br />Recognition"
-          sectionTitleUp="AWARDS"
-          sectionSubTitle="We have been recognized for our commitment to <br />excellence in healthcare."
+          sectionTitle='Winning Awards and <br />Recognition'
+          sectionTitleUp='AWARDS'
+          sectionSubTitle='We have been recognized for our commitment to <br />excellence in healthcare.'
           data={awardData}
         />
       </Section>
-      <Section className="cs_footer_margin_0">
+      <Section className='cs_footer_margin_0'>
         <BannerSectionStyle4
-          bgUrl="/images/about/banner_bg_2.jpeg"
-          title="Don’t Let Your Health <br />Take a Backseat!"
-          subTitle="Schedule an appointment with one of our experienced <br />medical professionals today!"
+          bgUrl='/images/about/banner_bg_2.jpeg'
+          title='Don’t Let Your Health <br />Take a Backseat!'
+          subTitle='Schedule an appointment with one of our experienced <br />medical professionals today!'
           center
         />
       </Section>

@@ -1,4 +1,4 @@
-"use client"
+'use client';
 import React from 'react';
 import HeroStyle2 from '@/app/ui/Hero/HeroStyle2';
 import Section from '@/app/ui/Section';
@@ -12,10 +12,8 @@ import FaqSectionStyle2 from '@/app/ui/Section/FaqSection/FaqSectionStyle2';
 import TestimonialSectionStyle2 from '@/app/ui/Section/TestimonialSection/TestimonialSectionStyle2';
 import WorkingProcess from '@/app/ui/Section/WorkingProcess';
 
-import aboutImg from '../../../public/images/home_2/about.jpeg'
-import appointmentImg from '../../../public/images/home_2/appointment_img.png'
-
-
+import aboutImg from '../../../public/images/home_2/about.jpeg';
+import appointmentImg from '../../../public/images/home_2/appointment_img.png';
 
 const departmentData = [
   {
@@ -51,28 +49,28 @@ const departmentData = [
 ];
 const testimonialData = [
   {
-    text: 'I recently had to bring my child to ProHealth for a minor injury, and I was so impressed with the care he received. The pediatrician was great with him and made him feel at ease, and the entire staff was kind and attentive.”',
+    text: 'I recently had to bring my child to Medical Tourism for a minor injury, and I was so impressed with the care he received. The pediatrician was great with him and made him feel at ease, and the entire staff was kind and attentive.”',
     ratingNumber: '5',
     avatarImgUrl: '/images/home_1/avatar_2.png',
     avatarName: 'PAULO HUBERT',
     avatarDesignation: 'New York, USA',
   },
   {
-    text: 'I recently had to bring my child to ProHealth for a minor injury, and I was so impressed with the care he received. The pediatrician was great with him and made him feel at ease, and the entire staff was kind and attentive.”',
+    text: 'I recently had to bring my child to Medical Tourism for a minor injury, and I was so impressed with the care he received. The pediatrician was great with him and made him feel at ease, and the entire staff was kind and attentive.”',
     ratingNumber: '4.5',
     avatarImgUrl: '/images/home_1/avatar_2.png',
     avatarName: 'PAULO HUBERT',
     avatarDesignation: 'New York, USA',
   },
   {
-    text: 'I recently had to bring my child to ProHealth for a minor injury, and I was so impressed with the care he received. The pediatrician was great with him and made him feel at ease, and the entire staff was kind and attentive.”',
+    text: 'I recently had to bring my child to Medical Tourism for a minor injury, and I was so impressed with the care he received. The pediatrician was great with him and made him feel at ease, and the entire staff was kind and attentive.”',
     ratingNumber: '5',
     avatarImgUrl: '/images/home_1/avatar_2.png',
     avatarName: 'PAULO HUBERT',
     avatarDesignation: 'New York, USA',
   },
   {
-    text: 'I recently had to bring my child to ProHealth for a minor injury, and I was so impressed with the care he received. The pediatrician was great with him and made him feel at ease, and the entire staff was kind and attentive.”',
+    text: 'I recently had to bring my child to Medical Tourism for a minor injury, and I was so impressed with the care he received. The pediatrician was great with him and made him feel at ease, and the entire staff was kind and attentive.”',
     ratingNumber: '4.5',
     avatarImgUrl: '/images/home_1/avatar_2.png',
     avatarName: 'PAULO HUBERT',
@@ -121,29 +119,29 @@ const blogData = [
     title: 'The Benefits of Mindfulness Meditation for Stress and Anxiety',
     thumbUrl: '/images/home_1/post_1.jpeg',
     date: 'May 1, 2023',
-    href: '/blog/blog-details'
+    href: '/blog/blog-details',
   },
   {
     title: 'Healthy Eating on a Budget: Tips and Strategies',
     thumbUrl: '/images/home_1/post_2.jpeg',
     date: 'May 4, 2023',
-    href: '/blog/blog-details'
+    href: '/blog/blog-details',
   },
   {
     title: 'The Importance of Regular Cancer Screenings and Early Detection',
     thumbUrl: '/images/home_1/post_3.jpeg',
     date: 'May 1, 2023',
-    href: '/blog/blog-details'
+    href: '/blog/blog-details',
   },
 ];
 const faqData = [
   {
-    title: 'What services does ProHealth offer?',
+    title: 'What services does Medical Tourism offer?',
     content:
       'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.',
   },
   {
-    title: 'How do I schedule an appointment with ProHealth?',
+    title: 'How do I schedule an appointment with Medical Tourism?',
     content:
       'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.',
   },
@@ -197,16 +195,16 @@ export default function HomeStyle2() {
   return (
     <>
       <HeroStyle2
-        title="Compassionate care, exceptional results."
-        subTitle="Our team of experienced doctors and healthcare professionals are
+        title='Compassionate care, exceptional results.'
+        subTitle='Our team of experienced doctors and healthcare professionals are
         committed to providing quality care and personalized attention to
-        our patients."
-        bgUrl="/images/home_2/hero_bg.jpeg"
-        imgUrl="/images/home_2/patents.png"
-        videoBtnText="See how we work"
-        videoUrl="https://www.youtube.com/embed/VcaAVWtP48A"
-        btnText="Pro Health"
-        btnUrl="/"
+        our patients.'
+        bgUrl='/images/home_2/hero_bg.jpeg'
+        imgUrl='/images/home_2/patents.png'
+        videoBtnText='See how we work'
+        videoUrl='https://www.youtube.com/embed/VcaAVWtP48A'
+        btnText='Pro Health'
+        btnUrl='/'
         funfactList={[
           { number: '20+', title: 'Years of experience' },
           { number: '95%', title: 'Patient satisfaction rating' },
@@ -216,23 +214,23 @@ export default function HomeStyle2() {
       />
       <Section bottomMd={190} bottomLg={145} bottomXl={105}>
         <AboutSectionStyle3
-          titleUp="ABOUT US"
-          title="ProHealth is a team of experienced medical professional"
-          subTitle="Dedicated to providing top-quality healthcare services. We believe in a holistic approach to healthcare that focuses on treating the whole person, not just the illness or symptoms."
+          titleUp='ABOUT US'
+          title='Medical Tourism is a team of experienced medical professional'
+          subTitle='Dedicated to providing top-quality healthcare services. We believe in a holistic approach to healthcare that focuses on treating the whole person, not just the illness or symptoms.'
           imgUrl={aboutImg}
         />
       </Section>
 
       <Section bottomMd={125} bottomLg={125} bottomXl={85}>
         <DepartmentSectionStyle4
-          sectionTitle="For Your Health"
-          sectionTitleUp="OUR DEPARTMENTS"
+          sectionTitle='For Your Health'
+          sectionTitleUp='OUR DEPARTMENTS'
           data={departmentData}
         />
       </Section>
 
       <Section
-        className="cs_bg_filed"
+        className='cs_bg_filed'
         style={{ backgroundImage: `url(/images/home_2/testimonial_bg.svg)` }}
         topMd={190}
         topLg={145}
@@ -242,8 +240,8 @@ export default function HomeStyle2() {
         bottomXl={110}
       >
         <TestimonialSectionStyle2
-          sectionTitle="What Our Patients Say <br /> About Us"
-          sectionTitleUp="TESTIMONIALS"
+          sectionTitle='What Our Patients Say <br /> About Us'
+          sectionTitleUp='TESTIMONIALS'
           data={testimonialData}
         />
       </Section>
@@ -257,29 +255,29 @@ export default function HomeStyle2() {
         bottomXl={110}
       >
         <WorkingProcess
-          sectionTitle="How it Works"
-          sectionTitleUp=""
-          sectionTitleDown=""
-          sectionSubTitle=""
+          sectionTitle='How it Works'
+          sectionTitleUp=''
+          sectionTitleDown=''
+          sectionSubTitle=''
           data={workingProcessData}
         />
       </Section>
 
       <Section>
         <BannerSectionStyle2
-          bgUrl="/images/home_2/cta_bg.jpeg"
-          title="Don’t Let Your Health Take a Backseat!"
-          subTitle="Schedule an appointment with one of our <br />
-          experienced medical professionals today!"
+          bgUrl='/images/home_2/cta_bg.jpeg'
+          title='Don’t Let Your Health Take a Backseat!'
+          subTitle='Schedule an appointment with one of our <br />
+          experienced medical professionals today!'
         />
       </Section>
 
       <Section topMd={190} topLg={145} topXl={105}>
         <BlogSectionStyle3
-          sectionTitle="Latest Update"
-          sectionTitleUp="BLOG POSTS"
-          sectionTitleDown=""
-          sectionSubTitle=""
+          sectionTitle='Latest Update'
+          sectionTitleUp='BLOG POSTS'
+          sectionTitleDown=''
+          sectionSubTitle=''
           data={blogData}
         />
       </Section>
@@ -294,17 +292,17 @@ export default function HomeStyle2() {
       >
         <FaqSectionStyle2
           data={faqData}
-          sectionTitle="Usually Asked"
-          sectionTitleUp="What People"
+          sectionTitle='Usually Asked'
+          sectionTitleUp='What People'
         />
       </Section>
 
       <Section>
         <AppointmentSectionStyle2
-          bgUrl="/images/home_2/appointment_bg.svg"
+          bgUrl='/images/home_2/appointment_bg.svg'
           imgUrl={appointmentImg}
-          sectionTitle="Appointment"
-          sectionTitleUp="BOOK AN"
+          sectionTitle='Appointment'
+          sectionTitleUp='BOOK AN'
         />
       </Section>
 

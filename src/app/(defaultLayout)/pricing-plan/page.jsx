@@ -1,4 +1,4 @@
-"use client"
+'use client';
 import React from 'react';
 import Section from '@/app/ui/Section';
 import BannerSectionStyle10 from '@/app/ui/Section/BannerSection/BannerSectionStyle10';
@@ -6,10 +6,9 @@ import BannerSectionStyle3 from '@/app/ui/Section/BannerSection/BannerSectionSty
 import FaqSectionStyle4 from '@/app/ui/Section/FaqSection/FaqSectionStyle4';
 import PricingSection from '@/app/ui/Section/PricingSection';
 
-import bannerImg from '../../../../public/images/pricing_plan/banner_img.png'
-import bannerImgBtm from '../../../../public//images/pricing_plan/banner_img_2.png'
-import faqImg from '../../../../public/images/home_4/faq_img.jpeg'
-
+import bannerImg from '../../../../public/images/pricing_plan/banner_img.png';
+import bannerImgBtm from '../../../../public//images/pricing_plan/banner_img_2.png';
+import faqImg from '../../../../public/images/home_4/faq_img.jpeg';
 
 const pricingData = [
   {
@@ -111,12 +110,12 @@ const pricingData = [
 ];
 const faqData = [
   {
-    title: 'What services does ProHealth offer?',
+    title: 'What services does Medical Tourism offer?',
     content:
       'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.',
   },
   {
-    title: 'How do I schedule an appointment with ProHealth?',
+    title: 'How do I schedule an appointment with Medical Tourism?',
     content:
       'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.',
   },
@@ -140,12 +139,12 @@ export default function PricingPlan() {
   return (
     <>
       <BannerSectionStyle3
-        bgUrl="/images/pricing_plan/banner_bg.svg"
+        bgUrl='/images/pricing_plan/banner_bg.svg'
         imgUrl={bannerImg}
-        title="Find the Right Plan <br>for You"
-        subTitle="Explore Our Membership Options and Start Your Journey to Better Health"
-        btnText="Get Starter"
-        btnUrl="/contact"
+        title='Find the Right Plan <br>for You'
+        subTitle='Explore Our Membership Options and Start Your Journey to Better Health'
+        btnText='Get Starter'
+        btnUrl='/contact'
       />
       <Section
         topMd={185}
@@ -156,7 +155,7 @@ export default function PricingPlan() {
         bottomXl={110}
       >
         <PricingSection
-          sectionTitle="Choose Your ProHealth <br />Membership Plan"
+          sectionTitle='Choose Your Medical Tourism <br />Membership Plan'
           data={pricingData}
         />
       </Section>
@@ -167,24 +166,24 @@ export default function PricingPlan() {
         bottomMd={200}
         bottomLg={150}
         bottomXl={110}
-        className="cs_gray_bg_1"
+        className='cs_gray_bg_1'
       >
         <FaqSectionStyle4
-          sectionTitle="Frequently Asked <br />Questions"
+          sectionTitle='Frequently Asked <br />Questions'
           data={faqData}
           faqImgUrl={faqImg}
-          spiningImgUrl="/images/home_1/about_mini.svg"
+          spiningImgUrl='/images/home_1/about_mini.svg'
         />
       </Section>
       <Section
         topMd={200}
         topLg={150}
         topXl={110}
-        className="cs_footer_margin_0"
+        className='cs_footer_margin_0'
       >
         <BannerSectionStyle10
           imgUrl={bannerImgBtm}
-          title="Choose Your Plan and Invest in Your Health Today!"
+          title='Choose Your Plan and Invest in Your Health Today!'
         />
       </Section>
     </>

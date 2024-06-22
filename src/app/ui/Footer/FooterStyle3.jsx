@@ -7,8 +7,6 @@ import MenuWidget from '../Widget/MenuWidget';
 
 import newsletterImg from '../../../../public/images/home_3/newsletter_img.png';
 
-
-
 const menuDataOne = [
   { title: 'About Us', href: '/about' },
   { title: 'Departments', href: '/departments' },
@@ -30,44 +28,44 @@ const menuDataThree = [
 
 export default function FooterStyle3() {
   return (
-    <footer className="cs_footer cs_style_2 cs_accent_bg cs_white_color">
+    <footer className='cs_footer cs_style_2 cs_accent_bg cs_white_color'>
       <NewsletterStyle3
-        title="To get the latest news about health from our experts"
-        subTitle="BE OUR SUSCRIBERS"
+        title='To get the latest news about health from our experts'
+        subTitle='BE OUR SUSCRIBERS'
         imgUrl={newsletterImg}
       />
-      <div className="container">
-        <div className="cs_footer_in">
-          <div className="cs_footer_col">
-            <div className="cs_footer_item">
+      <div className='container'>
+        <div className='cs_footer_in'>
+          <div className='cs_footer_col'>
+            <div className='cs_footer_item'>
               <TextWidget
-                logoUrl="/images/footer_logo_white.svg"
-                text="ProHealth Medical & Healthcare Center"
+                logoUrl='/images/footer_logo_white.svg'
+                text='Medical Tourism & Healthcare Center'
               />
               <ContactInfoWidget />
             </div>
           </div>
-          <div className="cs_footer_col">
-            <div className="cs_footer_item">
+          <div className='cs_footer_col'>
+            <div className='cs_footer_item'>
               <MenuWidget data={menuDataOne} />
             </div>
           </div>
-          <div className="cs_footer_col">
-            <div className="cs_footer_item">
+          <div className='cs_footer_col'>
+            <div className='cs_footer_item'>
               <MenuWidget data={menuDataTwo} />
             </div>
           </div>
-          <div className="cs_footer_col">
-            <div className="cs_footer_item">
+          <div className='cs_footer_col'>
+            <div className='cs_footer_item'>
               <MenuWidget data={menuDataThree} />
               <SocialWidget />
             </div>
           </div>
         </div>
       </div>
-      <div className="cs_footer_bottom">
-        <div className="container">
-          <div className="cs_copyright">
+      <div className='cs_footer_bottom'>
+        <div className='container'>
+          <div className='cs_copyright'>
             Copyright © 2024 Pro Health. All rights reserved.
           </div>
         </div>

@@ -1,4 +1,4 @@
-"use client"
+'use client';
 import React from 'react';
 import HeroStyle4 from '../ui/Hero/HeroStyle4';
 import Section from '../ui/Section';
@@ -17,7 +17,6 @@ import imgUrl2 from '../../../public/images/home_4/hero_img_2.png';
 import imgUrl3 from '../../../public/images/home_4/hero_img_3.png';
 import aboutImg from '../../../public/images/home_4/about_img.jpeg';
 import faqImg from '../../../public/images/home_4/faq_img.jpeg';
-
 
 const departmentData = [
   {
@@ -96,42 +95,42 @@ const featureListData = [
 ];
 const testimonialData = [
   {
-    text: '"I recently had to bring my child to ProHealth for a minor injury, and I was so impressed with the care he received. The pediatrician was great with him and made him feel at ease.”',
+    text: '"I recently had to bring my child to Medical Tourism for a minor injury, and I was so impressed with the care he received. The pediatrician was great with him and made him feel at ease.”',
     ratingNumber: '5',
     avatarImgUrl: '/images/home_4/avatar_2.png',
     avatarName: 'Sophia Torres',
     avatarDesignation: 'New York, USA',
   },
   {
-    text: '"ProHealth has been a game-changer for me. The doctors are caring and highly skilled, and the staff is always friendly and accommodating. We hope for the best wishes.”',
+    text: '"Medical Tourism has been a game-changer for me. The doctors are caring and highly skilled, and the staff is always friendly and accommodating. We hope for the best wishes.”',
     ratingNumber: '5',
     avatarImgUrl: '/images/home_4/avatar_3.png',
     avatarName: 'John Dupont',
     avatarDesignation: 'Manhattan, USA',
   },
   {
-    text: '“I had a great experience with ProHealth. The staff were friendly and professional, and the doctor took the time to answer all my questions and address my concerns.”',
+    text: '“I had a great experience with Medical Tourism. The staff were friendly and professional, and the doctor took the time to answer all my questions and address my concerns.”',
     ratingNumber: '5',
     avatarImgUrl: '/images/home_4/avatar_4.png',
     avatarName: 'Allen Duarte',
     avatarDesignation: 'California, USA',
   },
   {
-    text: '"I recently had to bring my child to ProHealth for a minor injury, and I was so impressed with the care he received. The pediatrician was great with him and made him feel at ease.”',
+    text: '"I recently had to bring my child to Medical Tourism for a minor injury, and I was so impressed with the care he received. The pediatrician was great with him and made him feel at ease.”',
     ratingNumber: '5',
     avatarImgUrl: '/images/home_4/avatar_2.png',
     avatarName: 'Sophia Torres',
     avatarDesignation: 'New York, USA',
   },
   {
-    text: '"ProHealth has been a game-changer for me. The doctors are caring and highly skilled, and the staff is always friendly and accommodating. We hope for the best wishes.”',
+    text: '"Medical Tourism has been a game-changer for me. The doctors are caring and highly skilled, and the staff is always friendly and accommodating. We hope for the best wishes.”',
     ratingNumber: '5',
     avatarImgUrl: '/images/home_4/avatar_3.png',
     avatarName: 'John Dupont',
     avatarDesignation: 'Manhattan, USA',
   },
   {
-    text: '“I had a great experience with ProHealth. The staff were friendly and professional, and the doctor took the time to answer all my questions and address my concerns.”',
+    text: '“I had a great experience with Medical Tourism. The staff were friendly and professional, and the doctor took the time to answer all my questions and address my concerns.”',
     ratingNumber: '5',
     avatarImgUrl: '/images/home_4/avatar_4.png',
     avatarName: 'Allen Duarte',
@@ -191,12 +190,12 @@ const brandData = [
 ];
 const faqData = [
   {
-    title: 'What services does ProHealth offer?',
+    title: 'What services does Medical Tourism offer?',
     content:
       'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.',
   },
   {
-    title: 'How do I schedule an appointment with ProHealth?',
+    title: 'How do I schedule an appointment with Medical Tourism?',
     content:
       'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.',
   },
@@ -241,26 +240,25 @@ const blogData = [
   },
 ];
 export default function HomeStyle4() {
-
   return (
     <>
       <HeroStyle4
-        title="Your Path to Health and Wellness Begins Here"
-        subTitle="Your Trusted Partner in Comprehensive Healthcare, Where Your Well-being is Our Priority, Providing Quality Care and Support for All Your Health Needs."
-        bgUrl="/images/home_4/hero_bg.jpeg"
+        title='Your Path to Health and Wellness Begins Here'
+        subTitle='Your Trusted Partner in Comprehensive Healthcare, Where Your Well-being is Our Priority, Providing Quality Care and Support for All Your Health Needs.'
+        bgUrl='/images/home_4/hero_bg.jpeg'
         imgUrl={imgUrl}
         imgUrl2={imgUrl2}
         imgUrl3={imgUrl3}
-        avatarImgUrl=""
-        avatarName=""
-        avatarSpeciality=""
-        avatarSheduleList=""
+        avatarImgUrl=''
+        avatarName=''
+        avatarSpeciality=''
+        avatarSheduleList=''
       />
 
-      <Section topMd={190} topLg={150} topXl={105} id="departments">
+      <Section topMd={190} topLg={150} topXl={105} id='departments'>
         <DepartmentSectionStyle6
-          sectionTitle="Find Your Right Department"
-          sectionTitleUp="DEPARTMENTS"
+          sectionTitle='Find Your Right Department'
+          sectionTitleUp='DEPARTMENTS'
           data={departmentData}
         />
       </Section>
@@ -268,11 +266,11 @@ export default function HomeStyle4() {
       <Section topMd={170} topLg={120} topXl={100}>
         <AboutSectionStyle5
           imgUrl={aboutImg}
-          titleUp="ABOUT US"
-          title="ProHealth is a team of experienced medical professionals"
-          subTitle="Dedicated to providing top-quality healthcare services. We believe in a holistic approach to healthcare that focuses on treating the whole person, not just the illness or symptoms."
-          supportTitle="24/7 Support"
-          supportSubTitle="We are available when you want"
+          titleUp='ABOUT US'
+          title='Medical Tourism is a team of experienced medical professionals'
+          subTitle='Dedicated to providing top-quality healthcare services. We believe in a holistic approach to healthcare that focuses on treating the whole person, not just the illness or symptoms.'
+          supportTitle='24/7 Support'
+          supportSubTitle='We are available when you want'
         />
       </Section>
 
@@ -283,10 +281,10 @@ export default function HomeStyle4() {
         bottomMd={200}
         bottomLg={150}
         bottomXl={100}
-        className="cs_gray_bg_1"
+        className='cs_gray_bg_1'
       >
         <FeaturesSectionStyle5
-          sectionTitle="Our Values"
+          sectionTitle='Our Values'
           data={featureListData}
         />
       </Section>
@@ -300,9 +298,9 @@ export default function HomeStyle4() {
         bottomXl={110}
       >
         <TestimonialSectionStyle4
-          sectionTitle="Discover the Stories of Health and Healing"
-          sectionTitleUp="WHAT OUR PATIENTS SAY"
-          avatarListTitle="150+ patients are reviews about ProHealth"
+          sectionTitle='Discover the Stories of Health and Healing'
+          sectionTitleUp='WHAT OUR PATIENTS SAY'
+          avatarListTitle='150+ patients are reviews about Medical Tourism'
           avatarList={[
             { imgUrl: '/images/home_4/avatar_1.png' },
             { imgUrl: '/images/home_4/avatar_2.png' },
@@ -316,11 +314,11 @@ export default function HomeStyle4() {
 
       <Section>
         <Cta
-          title="Ready to Prioritize Your Health?"
-          subTitle="Contact us now to schedule your appointment and take the first step towards a healthier, happier you."
-          bgUrl="/images/home_4/cta_bg.jpeg"
-          btnUrl="/appointments"
-          btnText="Booking Now"
+          title='Ready to Prioritize Your Health?'
+          subTitle='Contact us now to schedule your appointment and take the first step towards a healthier, happier you.'
+          bgUrl='/images/home_4/cta_bg.jpeg'
+          btnUrl='/appointments'
+          btnText='Booking Now'
         />
       </Section>
 
@@ -331,10 +329,10 @@ export default function HomeStyle4() {
         bottomMd={200}
         bottomLg={150}
         bottomXl={110}
-        className="cs_gray_bg_1"
+        className='cs_gray_bg_1'
       >
         <PricingSection
-          sectionTitle="Choose Your ProHealth <br />Membership Plan"
+          sectionTitle='Choose Your Medical Tourism <br />Membership Plan'
           data={pricingData}
         />
       </Section>
@@ -345,10 +343,10 @@ export default function HomeStyle4() {
 
       <Section topMd={185} topLg={145} topXl={105}>
         <FaqSectionStyle4
-          sectionTitle="Frequently Asked <br />Questions"
+          sectionTitle='Frequently Asked <br />Questions'
           data={faqData}
           faqImgUrl={faqImg}
-          spiningImgUrl="/images/home_1/about_mini.svg"
+          spiningImgUrl='/images/home_1/about_mini.svg'
         />
       </Section>
 
@@ -361,10 +359,10 @@ export default function HomeStyle4() {
         bottomXl={80}
       >
         <BlogSectionStyle5
-          sectionTitle="Our Latest Blog"
-          sectionTitleUp=""
-          sectionTitleDown=""
-          sectionSubTitle=""
+          sectionTitle='Our Latest Blog'
+          sectionTitleUp=''
+          sectionTitleDown=''
+          sectionSubTitle=''
           data={blogData}
         />
       </Section>

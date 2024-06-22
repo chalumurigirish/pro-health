@@ -31,7 +31,7 @@ export default function DoctorDetails() {
             { iconUrl: '/images/icons/call.svg', title: '+123+456-7890' },
             {
               iconUrl: '/images/icons/envlope.svg',
-              title: 'sarahlee@prohealth.com',
+              title: 'sarahlee@MedicalTourism.com',
             },
           ]}
           contactInfoHeading='Contact Info'

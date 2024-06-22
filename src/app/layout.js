@@ -15,13 +15,13 @@ const poppins = Poppins({
 export const metadata = {
   title: {
     absolute: '',
-    default: 'ProHealth - Medical and Healthcare',
-    template: '%s | ProHealth - Medical and Healthcare',
+    default: 'Medical Tourism - Medical and Healthcare',
+    template: '%s | Medical Tourism - Medical and Healthcare',
   },
-  description: 'ProHealth - Medical and Healthcare',
+  description: 'Medical Tourism - Medical and Healthcare',
   openGraph: {
-    title: 'ProHealth - Medical and Healthcare',
-    description: 'ProHealth - Medical and Healthcare',
+    title: 'Medical Tourism - Medical and Healthcare',
+    description: 'Medical Tourism - Medical and Healthcare',
     images: ['/openGraphImage.jpeg'],
   },
 };

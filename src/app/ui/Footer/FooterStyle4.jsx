@@ -25,43 +25,43 @@ const menuDataThree = [
 
 export default function FooterStyle4() {
   return (
-    <footer className="cs_footer cs_style_2 cs_type_1 cs_accent_bg cs_white_color">
-      <div className="container">
+    <footer className='cs_footer cs_style_2 cs_type_1 cs_accent_bg cs_white_color'>
+      <div className='container'>
         <NewsletterStyle4
-          title="Be Our Subscribers"
-          subTitle="Join our newsletter to keep up to date <br />health from our experts"
+          title='Be Our Subscribers'
+          subTitle='Join our newsletter to keep up to date <br />health from our experts'
         />
-        <div className="cs_footer_in">
-          <div className="cs_footer_col">
-            <div className="cs_footer_item">
+        <div className='cs_footer_in'>
+          <div className='cs_footer_col'>
+            <div className='cs_footer_item'>
               <TextWidget
-                logoUrl="/images/footer_logo_white.svg"
-                text="ProHealth Medical & Healthcare Center"
+                logoUrl='/images/footer_logo_white.svg'
+                text='Medical Tourism & Healthcare Center'
               />
               <ContactInfoWidget />
             </div>
           </div>
-          <div className="cs_footer_col">
-            <div className="cs_footer_item">
+          <div className='cs_footer_col'>
+            <div className='cs_footer_item'>
               <MenuWidget data={menuDataOne} />
             </div>
           </div>
-          <div className="cs_footer_col">
-            <div className="cs_footer_item">
+          <div className='cs_footer_col'>
+            <div className='cs_footer_item'>
               <MenuWidget data={menuDataTwo} />
             </div>
           </div>
-          <div className="cs_footer_col">
-            <div className="cs_footer_item">
+          <div className='cs_footer_col'>
+            <div className='cs_footer_item'>
               <MenuWidget data={menuDataThree} />
               <SocialWidget />
             </div>
           </div>
         </div>
       </div>
-      <div className="cs_footer_bottom">
-        <div className="container">
-          <div className="cs_copyright">
+      <div className='cs_footer_bottom'>
+        <div className='container'>
+          <div className='cs_copyright'>
             Copyright © 2023 Pro Health. All rights reserved.
           </div>
         </div>

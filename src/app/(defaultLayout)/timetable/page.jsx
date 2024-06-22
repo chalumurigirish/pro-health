@@ -3,7 +3,7 @@ import Section from '@/app/ui/Section';
 import BannerSectionStyle5 from '@/app/ui/Section/BannerSection/BannerSectionStyle5';
 import parse from 'html-react-parser';
 
-import bannerImg from '../../../../public/images/timetable/banner_img.png'
+import bannerImg from '../../../../public/images/timetable/banner_img.png';
 
 const timeTable = [
   {
@@ -198,10 +198,10 @@ export default function Timetable() {
   return (
     <>
       <BannerSectionStyle5
-        bgUrl="/images/timetable/banner_bg.svg"
+        bgUrl='/images/timetable/banner_bg.svg'
         imgUrl={bannerImg}
-        title="ProHealth <br>Timetable"
-        subTitle="Get to know the complete info of our <br>doctors’ schedule"
+        title='Medical Tourism <br>Timetable'
+        subTitle='Get to know the complete info of our <br>doctors’ schedule'
       />
       <Section
         topMd={170}
@@ -211,10 +211,10 @@ export default function Timetable() {
         bottomLg={150}
         bottomXl={110}
       >
-        <div className="container">
-          <div className="table-responsive-xl">
-            <div className="cs_timetable">
-              <div className="cs_timetable_vertical">
+        <div className='container'>
+          <div className='table-responsive-xl'>
+            <div className='cs_timetable'>
+              <div className='cs_timetable_vertical'>
                 <div>8:00 AM</div>
                 <div>9:00 AM</div>
                 <div>10:00 AM</div>
@@ -230,22 +230,22 @@ export default function Timetable() {
                 <div>8:00 PM</div>
                 <div>9:00 PM</div>
               </div>
-              <div className="cs_timetable_in">
+              <div className='cs_timetable_in'>
                 {timeTable?.map((item, index) => (
                   <div key={index}>
-                    <div className="cs_timetable_date cs_heading_color">
+                    <div className='cs_timetable_date cs_heading_color'>
                       {item.day}
                     </div>
                     {item.schedules?.map((schedule, index) => (
                       <div className={`cs_hour_${schedule.hour}`} key={index}>
                         {(schedule.department || schedule.doctor) && (
-                          <div className="cs_table_doctor">
+                          <div className='cs_table_doctor'>
                             <div>
                               {schedule.department && (
                                 <p>{parse(schedule.department)}</p>
                               )}
                               {schedule.doctor && (
-                                <p className="cs_medium cs_heading_color">
+                                <p className='cs_medium cs_heading_color'>
                                   {parse(schedule.doctor)}
                                 </p>
                               )}

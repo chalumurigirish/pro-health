@@ -61,12 +61,12 @@ const brandData = [
 ];
 const faqData = [
   {
-    title: 'What services does ProHealth offer?',
+    title: 'What services does Medical Tourism offer?',
     content:
       'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.',
   },
   {
-    title: 'How do I schedule an appointment with ProHealth?',
+    title: 'How do I schedule an appointment with Medical Tourism?',
     content:
       'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.',
   },
@@ -175,12 +175,12 @@ export default function Home() {
   return (
     <>
       <Hero
-        title="Your Partner in Health and Wellness"
-        subTitle="We are committed to providing you with the best medical and healthcare services to help you live healthier and happier."
-        bgUrl="/images/home_1/hero_bg.jpeg"
+        title='Your Partner in Health and Wellness'
+        subTitle='We are committed to providing you with the best medical and healthcare services to help you live healthier and happier.'
+        bgUrl='/images/home_1/hero_bg.jpeg'
         imgUrl={heroImage}
-        videoBtnText="See how we work"
-        videoUrl="https://www.youtube.com/embed/VcaAVWtP48A"
+        videoBtnText='See how we work'
+        videoUrl='https://www.youtube.com/embed/VcaAVWtP48A'
         infoList={[
           {
             title: 'Hotline',
@@ -198,8 +198,8 @@ export default function Home() {
             iconUrl: '/images/icons/pin.svg',
           },
         ]}
-        btnText="Book Now"
-        btnUrl="/appointments"
+        btnText='Book Now'
+        btnUrl='/appointments'
       />
 
       {/* Start Feature Section */}
@@ -211,7 +211,7 @@ export default function Home() {
         bottomLg={140}
         bottomXl={100}
       >
-        <FeaturesSection sectionTitle="Our Values" data={featureListData} />
+        <FeaturesSection sectionTitle='Our Values' data={featureListData} />
       </Section>
       {/* End Feature Section */}
 
@@ -219,13 +219,13 @@ export default function Home() {
       <Section>
         <AboutSection
           imgUrl={aboutImage}
-          spiningImgUrl="/images/home_1/about_mini.svg"
-          title="About Us"
-          subTitle="PRO HEALTH"
+          spiningImgUrl='/images/home_1/about_mini.svg'
+          title='About Us'
+          subTitle='PRO HEALTH'
           featureList={[
             {
               featureListTitle:
-                'ProHealth is a team of experienced medical professionals',
+                'Medical Tourism is a team of experienced medical professionals',
               featureListSubTitle:
                 'Dedicated to providing top-quality healthcare services. We believe in a holistic approach to healthcare that focuses on treating the whole person, not just the illness or symptoms.',
             },
@@ -237,8 +237,8 @@ export default function Home() {
       {/* Start Departments Section */}
       <Section topMd={185} topLg={150} topXl={110}>
         <DepartmentSection
-          sectionTitle="Departments"
-          bgUrl="/images/home_1/department_bg.svg"
+          sectionTitle='Departments'
+          bgUrl='/images/home_1/department_bg.svg'
           data={departmentData}
         />
       </Section>
@@ -246,7 +246,7 @@ export default function Home() {
 
       {/* Start Award Section */}
       <Section topMd={185} topLg={140} topXl={100}>
-        <AwardSection sectionTitle="Departments" data={awardData} />
+        <AwardSection sectionTitle='Departments' data={awardData} />
       </Section>
       {/* End Award Section */}
 
@@ -260,8 +260,8 @@ export default function Home() {
         bottomXl={110}
       >
         <TestimonialSection
-          sectionTitle="Some Reviews"
-          sectionTitleDown="Of our clients"
+          sectionTitle='Some Reviews'
+          sectionTitleDown='Of our clients'
         />
       </Section>
       {/* End Testimonial */}
@@ -269,10 +269,10 @@ export default function Home() {
       {/* Start Banner Section */}
       <Section>
         <Banner
-          bgUrl="/images/home_1/cta_bg.svg"
+          bgUrl='/images/home_1/cta_bg.svg'
           imgUrl={bannerImg}
-          title="Don’t Let Your Health Take a Backseat!"
-          subTitle="Schedule an appointment with one of our experienced medical professionals today!"
+          title='Don’t Let Your Health Take a Backseat!'
+          subTitle='Schedule an appointment with one of our experienced medical professionals today!'
         />
       </Section>
       {/* End Banner Section */}
@@ -280,18 +280,18 @@ export default function Home() {
       {/* Start Blog Section */}
       <Section topMd={190} topLg={145} topXl={105}>
         <BlogSection
-          sectionTitle="Latest Update"
-          sectionTitleUp="BLOG POSTS"
+          sectionTitle='Latest Update'
+          sectionTitleUp='BLOG POSTS'
           data={blogData}
         />
       </Section>
       {/* End Blog Section */}
 
       {/* Start Appointment Section */}
-      <Section topMd={190} topLg={145} topXl={105} id="appointment">
+      <Section topMd={190} topLg={145} topXl={105} id='appointment'>
         <AppointmentSection
-          sectionTitle="Appointment"
-          sectionTitleUp="BOOK AN"
+          sectionTitle='Appointment'
+          sectionTitleUp='BOOK AN'
           imgUrl={appointmentImg}
         />
       </Section>
@@ -301,8 +301,8 @@ export default function Home() {
       <Section topMd={190} topLg={145} topXl={105}>
         <FaqSection
           data={faqData}
-          sectionTitle="Usually Asked"
-          sectionTitleUp="What People"
+          sectionTitle='Usually Asked'
+          sectionTitleUp='What People'
         />
       </Section>
       {/* End FAQ Section */}
