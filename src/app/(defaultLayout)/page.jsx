@@ -61,12 +61,12 @@ const brandData = [
 ];
 const faqData = [
   {
-    title: 'What services does Medical Tourism offer?',
+    title: 'What services does Horizon Health offer?',
     content:
       'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.',
   },
   {
-    title: 'How do I schedule an appointment with Medical Tourism?',
+    title: 'How do I schedule an appointment with Horizon Health?',
     content:
       'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.',
   },
@@ -221,11 +221,11 @@ export default function Home() {
           imgUrl={aboutImage}
           spiningImgUrl='/images/home_1/about_mini.svg'
           title='About Us'
-          subTitle='Medical Tourism'
+          subTitle='Horizon Health'
           featureList={[
             {
               featureListTitle:
-                'Medical Tourism is a team of experienced medical professionals',
+                'Horizon Health is a team of experienced medical professionals',
               featureListSubTitle:
                 'Dedicated to providing top-quality healthcare services. We believe in a holistic approach to healthcare that focuses on treating the whole person, not just the illness or symptoms.',
             },

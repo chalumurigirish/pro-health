@@ -70,7 +70,7 @@ export default function Testimonial() {
               width={50}
             />
             <p>
-              I recently had to bring my child to Medical Tourism for a minor
+              I recently had to bring my child to Horizon Health for a minor
               injury, and I was so impressed with the care he received. The
               pediatrician was great with him and made him feel at ease, and the
               entire staff was kind and attentive.
@@ -89,7 +89,7 @@ export default function Testimonial() {
             <p>
               The pediatrician was great with him and made him feel at ease, and
               the entire staff was kind and attentive. I recently had to bring
-              my child to Medical Tourism for a minor injury, and I was so
+              my child to Horizon Health for a minor injury, and I was so
               impressed with the care he received.
             </p>
             <Rating ratingNumber={4.5} />

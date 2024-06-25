@@ -24,7 +24,7 @@ export default function Gallery() {
       <BannerSectionStyle3
         bgUrl='/images/about/banner_bg.svg'
         imgUrl={bannerImg}
-        title='Welcome to <br>Medical Tourism Gallery'
+        title='Welcome to <br>Horizon Health Gallery'
         subTitle='The special moment of our hospital'
       />
       <Section

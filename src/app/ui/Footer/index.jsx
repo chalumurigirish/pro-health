@@ -40,7 +40,7 @@ export default function Footer() {
             height={49}
             width={51}
           />
-          <h2 className='cs_footer_brand_text'>Medical Tourism</h2>
+          <h2 className='cs_footer_brand_text'>Horizon Health</h2>
         </div>
       </div>
       <div className='cs_footer_main'>
@@ -48,7 +48,7 @@ export default function Footer() {
           <div className='row'>
             <div className='col-lg-4'>
               <div className='cs_footer_item'>
-                <TextWidget text='Medical Tourism & <br />Healthcare Center' />
+                <TextWidget text='Horizon Health & <br />Healthcare Center' />
                 <ContactInfoWidget />
               </div>
             </div>
@@ -78,7 +78,7 @@ export default function Footer() {
           <div className='cs_footer_bottom_in'>
             <SocialWidget />
             <div className='cs_copyright'>
-              Copyright © 2024 Medical Tourism. All rights reserved.
+              Copyright © 2024 Horizon Health. All rights reserved.
             </div>
           </div>
         </div>

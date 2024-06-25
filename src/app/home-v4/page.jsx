@@ -95,42 +95,42 @@ const featureListData = [
 ];
 const testimonialData = [
   {
-    text: '"I recently had to bring my child to Medical Tourism for a minor injury, and I was so impressed with the care he received. The pediatrician was great with him and made him feel at ease.”',
+    text: '"I recently had to bring my child to Horizon Health for a minor injury, and I was so impressed with the care he received. The pediatrician was great with him and made him feel at ease.”',
     ratingNumber: '5',
     avatarImgUrl: '/images/home_4/avatar_2.png',
     avatarName: 'Sophia Torres',
     avatarDesignation: 'New York, USA',
   },
   {
-    text: '"Medical Tourism has been a game-changer for me. The doctors are caring and highly skilled, and the staff is always friendly and accommodating. We hope for the best wishes.”',
+    text: '"Horizon Health has been a game-changer for me. The doctors are caring and highly skilled, and the staff is always friendly and accommodating. We hope for the best wishes.”',
     ratingNumber: '5',
     avatarImgUrl: '/images/home_4/avatar_3.png',
     avatarName: 'John Dupont',
     avatarDesignation: 'Manhattan, USA',
   },
   {
-    text: '“I had a great experience with Medical Tourism. The staff were friendly and professional, and the doctor took the time to answer all my questions and address my concerns.”',
+    text: '“I had a great experience with Horizon Health. The staff were friendly and professional, and the doctor took the time to answer all my questions and address my concerns.”',
     ratingNumber: '5',
     avatarImgUrl: '/images/home_4/avatar_4.png',
     avatarName: 'Allen Duarte',
     avatarDesignation: 'California, USA',
   },
   {
-    text: '"I recently had to bring my child to Medical Tourism for a minor injury, and I was so impressed with the care he received. The pediatrician was great with him and made him feel at ease.”',
+    text: '"I recently had to bring my child to Horizon Health for a minor injury, and I was so impressed with the care he received. The pediatrician was great with him and made him feel at ease.”',
     ratingNumber: '5',
     avatarImgUrl: '/images/home_4/avatar_2.png',
     avatarName: 'Sophia Torres',
     avatarDesignation: 'New York, USA',
   },
   {
-    text: '"Medical Tourism has been a game-changer for me. The doctors are caring and highly skilled, and the staff is always friendly and accommodating. We hope for the best wishes.”',
+    text: '"Horizon Health has been a game-changer for me. The doctors are caring and highly skilled, and the staff is always friendly and accommodating. We hope for the best wishes.”',
     ratingNumber: '5',
     avatarImgUrl: '/images/home_4/avatar_3.png',
     avatarName: 'John Dupont',
     avatarDesignation: 'Manhattan, USA',
   },
   {
-    text: '“I had a great experience with Medical Tourism. The staff were friendly and professional, and the doctor took the time to answer all my questions and address my concerns.”',
+    text: '“I had a great experience with Horizon Health. The staff were friendly and professional, and the doctor took the time to answer all my questions and address my concerns.”',
     ratingNumber: '5',
     avatarImgUrl: '/images/home_4/avatar_4.png',
     avatarName: 'Allen Duarte',
@@ -190,12 +190,12 @@ const brandData = [
 ];
 const faqData = [
   {
-    title: 'What services does Medical Tourism offer?',
+    title: 'What services does Horizon Health offer?',
     content:
       'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.',
   },
   {
-    title: 'How do I schedule an appointment with Medical Tourism?',
+    title: 'How do I schedule an appointment with Horizon Health?',
     content:
       'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.',
   },
@@ -267,7 +267,7 @@ export default function HomeStyle4() {
         <AboutSectionStyle5
           imgUrl={aboutImg}
           titleUp='ABOUT US'
-          title='Medical Tourism is a team of experienced medical professionals'
+          title='Horizon Health is a team of experienced medical professionals'
           subTitle='Dedicated to providing top-quality healthcare services. We believe in a holistic approach to healthcare that focuses on treating the whole person, not just the illness or symptoms.'
           supportTitle='24/7 Support'
           supportSubTitle='We are available when you want'
@@ -300,7 +300,7 @@ export default function HomeStyle4() {
         <TestimonialSectionStyle4
           sectionTitle='Discover the Stories of Health and Healing'
           sectionTitleUp='WHAT OUR PATIENTS SAY'
-          avatarListTitle='150+ patients are reviews about Medical Tourism'
+          avatarListTitle='150+ patients are reviews about Horizon Health'
           avatarList={[
             { imgUrl: '/images/home_4/avatar_1.png' },
             { imgUrl: '/images/home_4/avatar_2.png' },
@@ -332,7 +332,7 @@ export default function HomeStyle4() {
         className='cs_gray_bg_1'
       >
         <PricingSection
-          sectionTitle='Choose Your Medical Tourism <br />Membership Plan'
+          sectionTitle='Choose Your Horizon Health <br />Membership Plan'
           data={pricingData}
         />
       </Section>

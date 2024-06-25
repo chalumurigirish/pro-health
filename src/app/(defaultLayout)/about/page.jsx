@@ -158,7 +158,7 @@ export default function About() {
       <BannerSectionStyle3
         bgUrl='/images/about/banner_bg.svg'
         imgUrl={bannerImg}
-        title='Welcome to <br />Medical Tourism & Healthcare Center'
+        title='Welcome to <br />Horizon Health & Healthcare Center'
         subTitle='Your Partner in Health and Wellness'
       />
       <Section topMd={200} topLg={150} topXl={110}>

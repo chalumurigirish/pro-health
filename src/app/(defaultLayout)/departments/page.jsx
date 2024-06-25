@@ -72,8 +72,8 @@ export default function Departments() {
       <BannerSectionStyle5
         bgUrl='/images/departments/banner_bg.svg'
         imgUrl={bannerImg}
-        title='Get to Know <br>Medical Tourism Departments'
-        subTitle='At Medical Tourism, we offer a wide range of healthcare services that are designed to meet your individual needs and help you achieve optimal health.'
+        title='Get to Know <br>Horizon Health Departments'
+        subTitle='At Horizon Health, we offer a wide range of healthcare services that are designed to meet your individual needs and help you achieve optimal health.'
       />
       <Section bottomMd={140} bottomLg={100} bottomXl={60}>
         <DepartmentSectionStyle3 data={departmentData} />

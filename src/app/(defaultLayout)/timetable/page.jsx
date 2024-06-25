@@ -200,7 +200,7 @@ export default function Timetable() {
       <BannerSectionStyle5
         bgUrl='/images/timetable/banner_bg.svg'
         imgUrl={bannerImg}
-        title='Medical Tourism <br>Timetable'
+        title='Horizon Health <br>Timetable'
         subTitle='Get to know the complete info of our <br>doctors’ schedule'
       />
       <Section

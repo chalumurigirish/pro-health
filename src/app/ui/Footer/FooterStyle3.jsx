@@ -40,7 +40,7 @@ export default function FooterStyle3() {
             <div className='cs_footer_item'>
               <TextWidget
                 logoUrl='/images/footer_logo_white.svg'
-                text='Medical Tourism & Healthcare Center'
+                text='Horizon Health & Healthcare Center'
               />
               <ContactInfoWidget />
             </div>
@@ -66,7 +66,7 @@ export default function FooterStyle3() {
       <div className='cs_footer_bottom'>
         <div className='container'>
           <div className='cs_copyright'>
-            Copyright © 2024 Medical Tourism. All rights reserved.
+            Copyright © 2024 Horizon Health. All rights reserved.
           </div>
         </div>
       </div>

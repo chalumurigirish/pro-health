@@ -110,12 +110,12 @@ const pricingData = [
 ];
 const faqData = [
   {
-    title: 'What services does Medical Tourism offer?',
+    title: 'What services does Horizon Health offer?',
     content:
       'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.',
   },
   {
-    title: 'How do I schedule an appointment with Medical Tourism?',
+    title: 'How do I schedule an appointment with Horizon Health?',
     content:
       'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.',
   },
@@ -155,7 +155,7 @@ export default function PricingPlan() {
         bottomXl={110}
       >
         <PricingSection
-          sectionTitle='Choose Your Medical Tourism <br />Membership Plan'
+          sectionTitle='Choose Your Horizon Health <br />Membership Plan'
           data={pricingData}
         />
       </Section>

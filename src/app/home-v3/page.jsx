@@ -102,25 +102,25 @@ const departmentData = [
 ];
 const testimonialData = [
   {
-    text: 'I recently had to bring my child to Medical Tourism for a minor injury, and I was so impressed with the care he received. The pediatrician was great with him and made him feel at ease, and the entire staff was kind and attentive.',
+    text: 'I recently had to bring my child to Horizon Health for a minor injury, and I was so impressed with the care he received. The pediatrician was great with him and made him feel at ease, and the entire staff was kind and attentive.',
     ratingNumber: '5',
     avatarImgUrl: '/images/home_3/testimonial_img_1.png',
     avatarName: 'LAURENCE VENDETTA',
   },
   {
-    text: 'I recently had to bring my child to Medical Tourism for a minor injury, and I was so impressed with the care he received. The pediatrician was great with him and made him feel at ease, and the entire staff was kind and attentive.',
+    text: 'I recently had to bring my child to Horizon Health for a minor injury, and I was so impressed with the care he received. The pediatrician was great with him and made him feel at ease, and the entire staff was kind and attentive.',
     ratingNumber: '4.5',
     avatarImgUrl: '/images/home_3/testimonial_img_2.png',
     avatarName: 'PAULO HUBERT',
   },
   {
-    text: 'I recently had to bring my child to Medical Tourism for a minor injury, and I was so impressed with the care he received. The pediatrician was great with him and made him feel at ease, and the entire staff was kind and attentive.',
+    text: 'I recently had to bring my child to Horizon Health for a minor injury, and I was so impressed with the care he received. The pediatrician was great with him and made him feel at ease, and the entire staff was kind and attentive.',
     ratingNumber: '5',
     avatarImgUrl: '/images/home_3/testimonial_img_1.png',
     avatarName: 'LAURENCE VENDETTA',
   },
   {
-    text: 'I recently had to bring my child to Medical Tourism for a minor injury, and I was so impressed with the care he received. The pediatrician was great with him and made him feel at ease, and the entire staff was kind and attentive.',
+    text: 'I recently had to bring my child to Horizon Health for a minor injury, and I was so impressed with the care he received. The pediatrician was great with him and made him feel at ease, and the entire staff was kind and attentive.',
     ratingNumber: '4.5',
     avatarImgUrl: '/images/home_3/testimonial_img_2.png',
     avatarName: 'PAULO HUBERT',
@@ -169,12 +169,12 @@ const teamData = [
 ];
 const faqData = [
   {
-    title: 'What services does Medical Tourism offer?',
+    title: 'What services does Horizon Health offer?',
     content:
       'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.',
   },
   {
-    title: 'How do I schedule an appointment with Medical Tourism?',
+    title: 'How do I schedule an appointment with Horizon Health?',
     content:
       'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.',
   },
@@ -232,7 +232,7 @@ export default function HomeStyle3() {
     <>
       <HeroStyle3
         title='Making Health Easy and Accessible'
-        subTitle="At Medical Tourism, we prioritize our patient's health and well-being, and
+        subTitle="At Horizon Health, we prioritize our patient's health and well-being, and
         we strive to provide compassionate care with exceptional results."
         bgUrl='/images/home_3/hero_bg.svg'
         imgUrl={imgUrl}
@@ -276,7 +276,7 @@ export default function HomeStyle3() {
           imgUrl={aboutImg}
           spiningImgUrl='/images/home_1/about_mini.svg'
           titleUp='ABOUT US'
-          title='Medical Tourism is a team of experienced medical professionals'
+          title='Horizon Health is a team of experienced medical professionals'
           subTitle='Dedicated to providing top-quality healthcare services. We believe in a <br /> holistic approach to healthcare that focuses on treating the whole <br />person, not just the illness or symptoms.'
         />
       </Section>
